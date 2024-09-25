@@ -1,0 +1,100 @@
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    padding: 20px;
+}
+
+.social-link{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.social-img{
+    height: 24px;
+    cursor: pointer;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+ul {
+    margin-top: 20px;
+
+}
+li{
+    cursor: pointer;
+}
+h4{
+    font-weight: 800;
+}
+
+.link-card {
+    padding-right: 60px;
+    margin-right: 30px;
+}
+
+
+.use-case ul li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.explore ul li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.resources ul li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+
+@media(max-width:1112px){
+    .service{
+        gap: 10px;
+    }
+}
+
+
+@media(max-width:936px){
+    .link-card{
+        padding-right: 0;
+    }
+}
+
+@media(max-width:759px){
+    .service{
+        margin-left: 24px;
+    }
+}
+
+@media(max-width:579px){
+    .f-container{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 32px;
+    }
+    .service{
+        margin-left: 0px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    h4{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:745px){
+    .f-container{
+        padding: 0;
+    }
+}

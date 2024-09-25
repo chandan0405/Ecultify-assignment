@@ -1,0 +1,51 @@
+.quote-container{
+    border: 1px solid rgb(205, 194, 194);
+    width: 300px;
+    margin: 20px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.quote-container q{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.avtar-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.title-container h4{
+    font-weight: 700;
+    color: rgb(81, 77, 77);
+}
+.title-container p{
+    color: grey;
+}
+.testimonial-card-container{
+    padding:10px 30px;
+    margin-left: 30px;
+}
+.text-wrapper{
+    margin-left: 20px;
+}
+
+.quote-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:900px){
+    .testimonial-card-container{
+        margin-left: 8px;
+    }
+}
+
+@media(max-width:745px){
+    .testimonial-card-container{
+       padding: 10px;
+    }
+}

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    align-items: center;
+}
+
+.logo {
+    height: 28px;
+    cursor: pointer;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.menu-card{
+    position: absolute;
+    border: 1px solid;
+    top: 4px;
+    right: 192px;
+    background-color: ghostwhite;
+    padding: 18px;
+    border-radius: 8px;
+    width: 200px;
+    display: none;
+}
+.crosss-icon{
+    position: relative;
+    font-size: 40px;
+    cursor: pointer;
+    left: 140px;
+    top: -12px;
+}
+.menu-card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 46px;
+    width: fit-content;
+}
+.opener{
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.nav-option {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.navigation-container ul li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn {
+    margin-right: 8px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.overlay-card{
+    margin-top: 0;
+}
+
+.sign {
+    margin-right: 10px;
+    background-color: #E3E3E3;
+    border: 1px solid #9b9797;
+}
+
+.register {
+    background-color: #2C2C2C;
+    color: #F5F5F5;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 70vh;
+}
+
+.text-container h1 {
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.text-container p {
+    color: #757575;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 20px;
+
+}
+
+.button1 {
+    margin-right: 8px;
+    padding: 6px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #E3E3E3;
+    border: 1px solid #9b9797;
+}
+
+.button2 {
+    margin-right: 8px;
+    padding: 6px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #2C2C2C;
+    color: #F5F5F5;
+
+}
+
+.footer {
+    height: 10vh;
+    width: 100%;
+}
+
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.image-container img{
+    width: 40vw;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.nav-option li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-option li.active {
+    background-color: #e2e2e2;
+    color: #000000;
+    padding: 6px 11px;
+    border-radius: 8px;
+}
+.overlay-card li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 6px;
+}
+
+.overlay-card li.active {
+    background-color: #e2e2e2;
+    color: #000000;
+    padding: 6px 11px;
+    border-radius: 8px;
+}
+
+@media(max-width:850px){
+ .nav-option{
+    gap: 15px;
+ }
+ .menu-card{
+    display: block;
+}
+}
+@media(max-width:776px){
+    .nav-option{
+        display: none;
+    }
+    .opener{
+        display: block;
+    }
+    .menu-card{
+        display: block;
+    }
+}
+@media(max-width:432px){
+    .menu-card{
+      display: block;
+        right: 40px
+    }
+}
+
+@media(max-width:600px){
+  .image-container{
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .image-container>img{
+    width: 100%;
+    border-radius: 6px;
+    
+  }
+}
