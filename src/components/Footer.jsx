@@ -1,7 +1,6 @@
 import Logo from "../assets/logo.svg";
 import "../css/footer.css";
 import Twitter from "../assets/twitter.svg";
-import Linkedin from "../assets/linkedin.svg"
 import Instagram from "../assets/instagram.svg"
 import Youtube from "../assets/youtube.svg";
 
@@ -12,7 +11,6 @@ const Footer = () => {
                 <img src={Logo} alt="logo" />
                 <div className="social-link">
                     <img src={Twitter} alt="twitter" className="social-img"/>
-                    <img src={Linkedin} alt="Linkedin" className="social-img"/>
                     <img src={Instagram} alt="instagram" className="social-img" />
                     <img src={Youtube} alt="youtube" className="social-img"/>
                 </div>
