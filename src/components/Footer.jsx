@@ -1,7 +1,7 @@
 import Logo from "../assets/logo.svg";
 import "../css/footer.css";
 import Twitter from "../assets/twitter.svg";
-import Linkedin from "../assets/linkedin.svg"
+import Linkedin from "../assets/Linkedin.svg"
 import Instagram from "../assets/instagram.svg"
 import Youtube from "../assets/youtube.svg";
 
